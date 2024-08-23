@@ -91,7 +91,14 @@
 
       <div class="help-request-form container">
         <h1>Demande d'Aide - Programme Salem Solidarité</h1>
-        <form name="financial-assistance" method="POST" data-netlify="true">
+        <form name="financial-assistance" action="https://formsubmit.co/info@salemsupportoutaouais.ca" method="POST" />
+            <!-- Honeypot -->
+            <input type="text" name="_honey" style="display: none;">
+
+            <input type="hidden" name="_captcha" value="false">
+
+            <input type="hidden" name="_next" value="http://salemsupportoutaouais/succes.html">
+            
             <div class="form-group">
                 <label for="full-name">Nom Complet</label>
                 <input class="input" required placeholder="Nom et Prénom" type="text" name="Nom Complet" id="full-name">
