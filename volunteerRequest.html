@@ -92,6 +92,13 @@
       <div class="volunteer-form container">
         <h1>Demande d'Adhésion de Bénévole pour Salem Support Outaouais (SSO)</h1>
         <form class="form-format" name="volunteer-application" action="https://formsubmit.co/info@salemsupportoutaouais.ca" method="POST" />
+            <!-- Honeypot -->
+            <input type="text" name="_honey" style="display: none;">
+
+            <input type="hidden" name="_captcha" value="false">
+
+            <input type="hidden" name="_next" value="http://salemsupportoutaouais/succes.html">
+            
             <div class="form-group">
                 <label for="full-name">Nom et Prénom</label>
                 <input class="input" required placeholder="Nom et Prénom" type="text" name="Nom et Prénom" id="full-name">
