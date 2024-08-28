@@ -349,6 +349,12 @@ a {
   border-radius: .5rem;
 }
 
+/*=============== Success-SSO ===============*/
+.succes {
+  padding-top: 3.5rem;
+}
+
+/*=============== Activity-SSO ===============*/
 .activity img{
   padding-top: 3.5rem;
 }
